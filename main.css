@@ -87,4 +87,54 @@ button {
     font-size: 16px;
     padding: 8px;
     border-radius: 6px;
+    margin-bottom: 16px;
+}
+
+@media screen and (max-width: 767px) {
+    .container {
+        width: 90%;
+    }
+
+    .sobre {
+        display: block;
+    }
+
+    .sobre img {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 16px;
+    }
+
+    .produtos {
+        display: block;
+    }
+
+    header nav li {
+        display: inline-block;
+        margin-bottom: 8px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .container {
+        width: 90%;
+    }
+
+    .sobre {
+        display: block;
+    }
+
+    .sobre img {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 16px;
+    }
+
+    .produtos {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 1%;
+        row-gap: 5%;
+        text-align: center;
+    }
 }
