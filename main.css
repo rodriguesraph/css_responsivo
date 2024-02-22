@@ -32,3 +32,20 @@ header .container {
     justify-content: space-between;
     align-items: center;
 }
+
+.linha {
+    padding: 1px 0;
+    margin: 16px 0;
+    width: 100%;
+    background-color: orangered;
+}
+
+.sobre {
+    display: flex;
+    padding: 16px 0;
+}
+
+.sobre img {
+    width: 40%;
+    margin-right: 16px;
+}
