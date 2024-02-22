@@ -49,3 +49,14 @@ header .container {
     width: 40%;
     margin-right: 16px;
 }
+
+.produtos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 1%;
+    row-gap: 5%;
+}
+
+.produtos img {
+    max-width: 100%;
+}
